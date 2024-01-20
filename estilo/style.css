@@ -82,7 +82,7 @@ nav ul li:focus-within {
 nav a:hover {
     color: #000000;
 }
-rgb(0, 0, 0)
+
 /* Controla exibição do menu-dropdown */
 nav ul:hover>ul,
 nav ul li:focus-within>ul,
