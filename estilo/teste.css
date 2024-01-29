@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fffefe;
+    color: #dfd7d7;
+}
+
+header {
+  width: 100%;
+  background-color: rgb(90, 41, 226);
+  color: #ffffff;
+  margin: 0;
+  
+}
+#navbarNavDropdown{
+ 
+  justify-content:center ;
+}
+
+.container-fluid{
+  background-color:  rgb(122, 28, 28);
+  color: #ffffff;
+  margin-top: -10px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 10vh;
+ 
+}
+
+.container-fluid  .navbar-nav li a{
+  color: #ffffff;
+}
+
+.dropdown-menu{
+  background-color: #c41414;
+  color: #050505;
+}
+
+
+.dropdown-menu .dropdown-item{
+  background-color: #050505;
+}
+
+.uploading{
+    width: 50%;
+    border: none;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 0px 0px rgba(139, 132, 132, 0.1);
+    background-color: #7a1c1c;
+}
+
+#titulo{
+    width: 80%;
+    height: 5vh;
+    background-color: rgb(255, 254, 254);
+    border: none;
+    border-radius: 23px;
+}
+
+#descricao{
+    width: 99%;
+    height: 30vh;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 23px;
+}
+
+button{
+    height: 5vh;
+    width: 30%;
+    margin-top: 4vh;
+    margin-bottom: 5vh;
+
+    width: 98%;
+}
+
+.form-group{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    
+    width: 98%;
+    
+}
+
+/*campo de fotos*/
+.imagens{
+    display: flex;
+    gap: 2vh;
+  
+    width: 98%;
+}
+#picture__input {
+    display: none;
+    background-color: white;
+  }
+
+  #picture__input_two {
+    display: none;
+    background-color: white;
+  }
+
+  #picture__input_tree {
+    display: none;
+    background-color: white;
+  }
+  
+  .picture {
+    width: 200px;
+    aspect-ratio: 16/9;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #a31010;
+    border: 2px dashed currentcolor;
+    cursor: pointer;
+    font-family: sans-serif;
+    transition: color 300ms ease-in-out, background 300ms ease-in-out;
+    outline: none;
+    overflow: hidden;
+  }
+  
+  .picture:hover {
+    color: #777;
+    background: #ccc;
+  }
+  
+  .picture:active {
+    border-color: turquoise;
+    color: turquoise;
+    background: #eee;
+  }
+  
+  .picture:focus {
+    color: #777;
+    background: #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .picture__img {
+    max-width: 100%;
+  }
+  
+
+  @media screen and (max-width : 450px) {
+    body{
+      
+    }
+
+    .form-group{
+      display: flex;
+      
+    }
+
+    .uploading{
+     
+      width: 100%;
+    }
+
+    form{
+      width: 90%;
+    
+    }
+    
+  }
+
+  @media screen and (max-width : 1200px) {
+    body{
+      
+    }
+
+   
+
+    .uploading{
+     
+      width: 100%;
+    }
+
+    form{
+      width: 90%;
+    
+    }
+    
+  }
